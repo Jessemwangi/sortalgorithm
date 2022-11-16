@@ -47,8 +47,10 @@ class App extends Component {
         <label htmlFor="values">enter values</label>
         <input type="text" name="unsortedArray" id="values" onChange={this.ReadArray} />
       </div>
-      <button type='submit' onClick={this.StartSorting}> sort data</button>
       <div>
+      <button type='submit' onClick={this.StartSorting}> sort data</button>
+      </div>
+      <div className='sortedArray'>
         <p>{this.state.unsortedArray}</p>
       </div>
       </form>
