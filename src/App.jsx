@@ -15,7 +15,7 @@ class App extends Component {
     this.setState({
       [e.target.name]:e.target.value.split(','),
     })
-    console.log(this.state.unsortedArray);
+    
   }
 
   StartSorting = (e) =>{
@@ -36,7 +36,7 @@ class App extends Component {
     this.setState({
       sortedArray:'sorted hurray' + this.state.unsortedArray
     });
-    console.log(this.state.unsortedArray);
+   
   }
   render() {
     return (
