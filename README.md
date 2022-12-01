@@ -11,5 +11,7 @@ In every iteration of the selection sort, the minimum element (considering ascen
 - HTML
 - CSS
 
+### screenShot
 
+<img src="src/asset/selection.png" alt="Selection Sort">
 
